@@ -1,0 +1,53 @@
+================================================================================
+MIDOG 2021 FINAL REPORT
+Stain Normalization for Domain Shift Mitigation
+================================================================================
+
+1. PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------
+
+Method          Mean AUROC      Std AUROC       Mean AUPRC     
+--------------------------------------------------------------------------------
+Raw Baseline    0.5068          0.0082          0.2541         
+Macenko         0.5037          0.0083          0.2499         
+Vahadane        0.5061          0.0117          0.2540         
+Reinhard        0.5076          0.0098          0.2502         
+
+2. SCANNER-SPECIFIC RESULTS
+--------------------------------------------------------------------------------
+
+Test Scanner: Hamamatsu-XR (Fold 1)
+
+  Raw:      0.4984
+  Macenko : 0.5118 (+0.0134)
+  Vahadane: 0.4944 (-0.0040)
+  Reinhard: 0.5177 (+0.0193)
+
+Test Scanner: Hamamatsu-S360 (Fold 2)
+
+  Raw:      0.5149
+  Macenko : 0.4953 (-0.0196)
+  Vahadane: 0.5178 (+0.0029)
+  Reinhard: 0.5068 (-0.0081)
+
+Test Scanner: Aperio-CS2 (Fold 3)
+
+  Raw:      0.5070
+  Macenko : 0.5041 (-0.0029)
+  Vahadane: 0.5059 (-0.0011)
+  Reinhard: 0.4982 (-0.0088)
+
+3. CONCLUSION
+--------------------------------------------------------------------------------
+
+✗ No meaningful improvement: best +0.0008
+
+Key Findings:
+- Scanner-induced domain shift confirmed (H1 accepted)
+- Stain normalization ineffective (H2 rejected)
+- Color information alone insufficient
+- Feature-level domain adaptation needed
+
+================================================================================
+END OF REPORT
+================================================================================

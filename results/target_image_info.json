@@ -1,0 +1,41 @@
+{
+  "Aperio-CS2": {
+    "filename": "102.tiff",
+    "file_number": 102,
+    "tissue_ratio": 0.8781571720604896,
+    "h_mean": 0.166263148188591,
+    "h_std": 0.09784390777349472,
+    "e_mean": -0.166263148188591,
+    "e_std": 0.09784390777349472,
+    "distance_to_median": 0.004095767518015916,
+    "scanner_h_median": 0.16336700320243835,
+    "scanner_e_median": -0.16336700320243835,
+    "n_candidates": 46
+  },
+  "Hamamatsu-S360": {
+    "filename": "064.tiff",
+    "file_number": 64,
+    "tissue_ratio": 0.9425661971615392,
+    "h_mean": 0.10333579778671265,
+    "h_std": 0.08489155769348145,
+    "e_mean": -0.10333579778671265,
+    "e_std": 0.08489155769348145,
+    "distance_to_median": 0.00034337037481825365,
+    "scanner_h_median": 0.10309299826622009,
+    "scanner_e_median": -0.10309299826622009,
+    "n_candidates": 50
+  },
+  "Hamamatsu-XR": {
+    "filename": "004.tiff",
+    "file_number": 4,
+    "tissue_ratio": 0.8778778409475215,
+    "h_mean": -0.03605201467871666,
+    "h_std": 0.08877953141927719,
+    "e_mean": 0.03605201467871666,
+    "e_std": 0.08877953141927719,
+    "distance_to_median": 0.0030136129381842965,
+    "scanner_h_median": -0.03818296082317829,
+    "scanner_e_median": 0.03818296082317829,
+    "n_candidates": 50
+  }
+}

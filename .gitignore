@@ -1,0 +1,19 @@
+# 대용량 데이터 제외
+data/raw/MIDOG_2021_DATA/*.tiff
+data/processed/patches/
+data/processed/patches_normalized/
+*.tiff
+*.tif
+
+# 결과 파일 제외 (선택)
+results/models/*.pth
+results/models/*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
