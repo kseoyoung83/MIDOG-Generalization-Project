@@ -1,0 +1,16 @@
+metric,comparison,statistic,p_value,significance
+auroc,Raw vs Macenko,2.0,0.75,ns
+auroc,Raw vs Vahadane,2.0,0.75,ns
+auroc,Raw vs Reinhard,3.0,1.0,ns
+f1,Raw vs Macenko,,,ERROR
+f1,Raw vs Vahadane,3.0,1.0,ns
+f1,Raw vs Reinhard,1.0,0.5,ns
+precision,Raw vs Macenko,,,ERROR
+precision,Raw vs Vahadane,3.0,1.0,ns
+precision,Raw vs Reinhard,3.0,1.0,ns
+recall,Raw vs Macenko,,,ERROR
+recall,Raw vs Vahadane,3.0,1.0,ns
+recall,Raw vs Reinhard,1.0,0.5,ns
+accuracy,Raw vs Macenko,,,ERROR
+accuracy,Raw vs Vahadane,3.0,1.0,ns
+accuracy,Raw vs Reinhard,1.0,0.5,ns
